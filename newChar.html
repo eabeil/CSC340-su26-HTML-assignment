@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>New Character | The Kingsguard</title>
+    <!-- CSS Link -->>
+    <link rel="stylessheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="details.html">Details</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="newChar.html">Add a Character</a></li>
+        </ul>
+    </nav>        
+    
+    <main class="form-container">
+        <section class="form-content">
+            <h1>Add a New Character</h1>
+            <p>Submit a request to feature your favorite character</p>
+
+            <form action="#" method="get" class="character-form">
+                <div class="form-group">
+                    <label for="char-name">Character Name:</label>
+                    <input type="text" id="char-name" name="char-name" placeholder="e.g., Ser Duncan the Tall" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="char-universe">Universe:</label>
+                    <input type="text" id="char-universe" name="char-universe" placeholder="A Song of Ice and Fire" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="char-role">Role:</label>
+                    <input type="text" id="char-role" name="char-role" placeholder="e.g., Lord Commander" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="char-image">Image URL:</label>
+                    <input type="url" id="char-image" name="char-image" placeholder="https://noname.com/image.jpg" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="char-desc">Short Description:</label>
+                    <textarea id="char-desc" name="char-desc" rows="5" placeholder="Enter character background and lore" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Add to Gallery</button>
+            
+            </form>
+        </section>
+    </main>
+</body>                    
+</html>
